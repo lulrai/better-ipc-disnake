@@ -11,11 +11,11 @@ This library is *based* on [discord-ext-ipc](https://github.com/Ext-Creators/dis
 > ### Development version
 #### For Linux
 ```shell
-python3 -m pip install -U git+https://github.com/MiroslavRosenov/better-ipc
+python3 -m pip install -U git+https://github.com/lulrai/better-ipc-disnake
 ```
 #### For Windows
 ```shell
-py -m pip install -U git+https://github.com/MiroslavRosenov/better-ipc
+py -m pip install -U git+https://github.com/lulrai/better-ipc-disnake
 ```
 
 # Examples
