@@ -14,7 +14,7 @@ long_description = (this_directory / "README.md").read_text(encoding="utf8")
 
 _version_re = re.compile(r'__version__\s+=\s+(.*)')
 
-with open('discord/ext/ipc/__init__.py', 'rb') as f:
+with open('disnake/ext/ipc/__init__.py', 'rb') as f:
     version = str(ast.literal_eval(_version_re.search(f.read().decode('utf-8')).group(1)))
 
 setuptools.setup(
@@ -26,7 +26,7 @@ setuptools.setup(
     url="https://github.com/lulrai/better-ipc-disnake",
     description="A high-performance inter-process communication library designed to work with the latest version of disnake",
     packages=[
-        "discord.ext.ipc"
+        "disnake.ext.ipc"
     ],
     project_urls={
         "Source": "https://github.com/lulrai/better-ipc-disnake",
