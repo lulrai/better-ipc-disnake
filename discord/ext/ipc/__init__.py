@@ -14,9 +14,9 @@ if disnake.version_info.major < 2:
     raise RuntimeError("You must have disnake (v2.0 or greater) to use this library.")
 
 __title__ = "better-ipc-disnake"
-__author__ = "Raizusekku"
+__author__ = "DaPandaOfficial"
 __license__ = "GNU GENERAL PUBLIC LICENSE"
-__copyright__ = "Copyright (C) 2022 Raizusekku"
+__copyright__ = "Copyright (C) 2022 DaPandaOfficial"
 __version__ = "2.0.1"
 
 
