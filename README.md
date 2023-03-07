@@ -1,6 +1,8 @@
 # Better IPC Disnake
 
-<a href="https://pypi.org/project/better-ipc/" target="_blank"><img src="https://img.shields.io/pypi/v/better-ipc"></a>
+Forked from Better IPC: https://github.com/MiroslavRosenov/better-ipc
+
+Support discord for original repository: <a href="https://discord.gg/Rpg7zjFYsh" target="_blank"><img src="https://img.shields.io/discord/875005644594372638?label=discord"></a>
 
 ## High-performance inter-process communication library designed to work with the latest version of disnake.
 
