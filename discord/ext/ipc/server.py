@@ -5,7 +5,7 @@ import json
 import contextlib
 import inspect
 
-from discord.ext.commands import Bot, Cog
+from disnake.ext.commands import Bot, Cog
 from typing import TYPE_CHECKING, Optional, Callable, ClassVar, TypeVar, Union, Type, Coroutine, Tuple, Any, Dict
 
 from websockets.exceptions import ConnectionClosedError, ConnectionClosed
@@ -43,7 +43,7 @@ class Server:
     do_multicast: `bool`
         Should the multicasting be allowed (this is enabled by default).
     logger: `Logger`
-        You can specify the logger for logs related to the lib (the default is discord.ext.ipc.server)
+        You can specify the logger for logs related to the lib (the default is disnake.ext.ipc.server)
     """
 
     endpoints: ClassVar[Dict[str, Tuple[RouteFunc, Type[ClientPayload]]]] = {}
