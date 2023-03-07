@@ -1,7 +1,7 @@
 from typing import Dict
-from discord.ext import commands, ipc
-from discord.ext.ipc.server import Server
-from discord.ext.ipc.objects import ClientPayload
+from disnake.ext import commands, ipc
+from disnake.ext.ipc.server import Server
+from disnake.ext.ipc.objects import ClientPayload
 
 class Routes(commands.Cog):
     def __init__(self, bot: commands.Bot):
