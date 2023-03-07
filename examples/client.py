@@ -1,5 +1,5 @@
 from quart import Quart
-from discord.ext.ipc import Client
+from disnake.ext.ipc import Client
 
 app = Quart(__name__)
 ipc = Client(secret_key="🐼")
