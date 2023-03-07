@@ -18,19 +18,19 @@ with open('discord/ext/ipc/__init__.py', 'rb') as f:
     version = str(ast.literal_eval(_version_re.search(f.read().decode('utf-8')).group(1)))
 
 setuptools.setup(
-    author="DaPandaOfficial",
+    author="Raizusekku",
     python_requires=">=3.8.0",
     license="MIT License",
-    author_email="miroslav.rosenov39@gmail.com",
+    author_email="raizusekku@gmail.com",
     long_description_content_type="text/markdown",
-    url="https://github.com/MiroslavRosenov/better-ipc",
-    description="A high-performance inter-process communication library designed to work with the latest version of discord.py",
+    url="https://github.com/lulrai/better-ipc-disnake",
+    description="A high-performance inter-process communication library designed to work with the latest version of disnake",
     packages=[
         "discord.ext.ipc"
     ],
     project_urls={
-        "Source": "https://github.com/MiroslavRosenov/better-ipc",
-        "Issue Tracker": "https://github.com/MiroslavRosenov/better-ipc/issues",
+        "Source": "https://github.com/lulrai/better-ipc-disnake",
+        "Issue Tracker": "https://github.com/lulrai/better-ipc-disnake/issues",
     },
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -48,10 +48,10 @@ setuptools.setup(
         "Topic :: Software Development :: Libraries",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    keywords=["better-ipc", "ipc", "python", "discord.py"],
+    keywords=["better-ipc-disnake", "ipc", "python", "disnake"],
     long_description=long_description,
     install_requires=requirements,
     dependencies=dependencies,
-    name="better-ipc",
+    name="better-ipc-disnake",
     version=version,
 )
