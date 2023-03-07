@@ -18,10 +18,10 @@ with open('discord/ext/ipc/__init__.py', 'rb') as f:
     version = str(ast.literal_eval(_version_re.search(f.read().decode('utf-8')).group(1)))
 
 setuptools.setup(
-    author="Raizusekku",
+    author="DaPandaOfficial",
     python_requires=">=3.8.0",
     license="MIT License",
-    author_email="raizusekku@gmail.com",
+    author_email="random_email@gmail.com",
     long_description_content_type="text/markdown",
     url="https://github.com/lulrai/better-ipc-disnake",
     description="A high-performance inter-process communication library designed to work with the latest version of disnake",
